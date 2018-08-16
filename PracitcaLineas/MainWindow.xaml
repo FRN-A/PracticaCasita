@@ -1,0 +1,20 @@
+﻿<Window x:Class="PracitcaLineas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracitcaLineas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1200">
+    <Grid>
+        <Polyline Name="plnSol" Stroke="Yellow" StrokeThickness="4"/>
+        <Polyline Name="plnCasa" StrokeThickness="2" Stroke="Red"/>
+        <Polyline Name="plnTecho" StrokeThickness="2" Stroke="Brown" />
+        <Polyline Name="plnPuerta" StrokeThickness="2" Stroke="Brown" />
+        <Polyline Name="plnVentana" StrokeThickness="2" Stroke="CornflowerBlue" />
+        <Polyline Name="plnVentana2" StrokeThickness="2" Stroke="CornflowerBlue" />
+        <Polyline Name="plnVentana3" StrokeThickness="2" Stroke="CornflowerBlue" />
+        <Polyline Name="plnArbol" Stroke="SandyBrown" StrokeThickness="3" />
+        <Polyline Name="plnArbol2" Stroke="ForestGreen" StrokeThickness="3" />
+    </Grid>
+</Window>
